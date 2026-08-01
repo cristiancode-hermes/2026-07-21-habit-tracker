@@ -1,0 +1,10 @@
+QA PASSED - 2026-07-21
+Project: Habit & Goal Tracker
+Stack: Angular 22 + NestJS 11 + SQLite
+Subdomain: habit-tracker.proyectos.cristiancode.dev
+API Port: 3042
+Build: ng build ✅ | nest build ✅
+Tailwind v4: @tailwindcss/postcss processed ✅
+Seed data: habits + goals + entries
+Deployed: Caddy reverse proxy + Excel updated
+QA: Structure verified, builds clean, docs complete
