@@ -14,7 +14,7 @@ export interface User {
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private readonly apiUrl = 'http://localhost:3000/api';
+  private readonly apiUrl = '/api';
   readonly user = signal<User | null>(null);
   readonly isAuthenticated = signal(false);
 

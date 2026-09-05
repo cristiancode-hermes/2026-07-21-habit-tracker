@@ -5,5 +5,6 @@
   "workspaces": [
     "apps/web",
     "apps/api"
-  ]
+  ],
+  "packageManager": "pnpm@10.34.5"
 }
